@@ -1,0 +1,243 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>ChappaL Store</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="./img/sneakers.jpg" alt="">
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <img src="./img/search.png" width="20" height="20" alt="" class="searchIcon">
+                </div>
+            </div>
+            <!-- <div class="navItem">
+                <span class="limitedOffer">Limited Offer!</span>
+            </div> -->
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">CLASSIC CHAPPAL</h3>
+            <h3 class="menuItem">LEATHER CHAPPAL</h3>
+            <h3 class="menuItem">BOYZ SANDALS</h3>
+            <h3 class="menuItem">LADIES CHAPPAL</h3>
+            <h3 class="menuItem">NAGPUR CHAPPAL</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./img/air.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">CLASSIC CHAPPAL</br> DESI</br> SEASON</h1>
+                <h2 class="sliderPrice">Rs 430</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/jordan.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">LEATHER CHAPPAL</br> DESI</br> SEASON</h1>
+                <h2 class="sliderPrice">Rs 544</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/nwe2.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">BOYZ SANDALS</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">Rs 440</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/crater.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">LADIES CHAPPAL</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">Rs 400</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/hippie.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">NAGPUR CHAPPAL</br> OLD </br> SEASON</h1>
+                <h2 class="sliderPrice">Rs 600</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+   
+    <div class="features">
+        <div class="feature">
+            <img src="https://www.shutterstock.com/shutterstock/photos/1700698672/display_1500/stock-vector-illustration-logistics-and-ship-express-delivery-company-logo-design-template-1700698672.jpg" alt="" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free worldwide shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="https://www.shutterstock.com/image-vector/powerful-easy-return-policy-icon-260nw-2129077799.jpg" alt="">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">No question return and easy refund in 14 days.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="data:image/png;base64,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" alt="">
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="data:image/png;base64,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" alt="">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch via email and support system.</span>
+        </div>
+    </div>
+
+    <div class="product" id="product">
+        <img src="./img/air.jpg" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">CLASSIC CHAPPAL</h1>
+            <h2 class="productPrice">Rs 199</h2>
+            <p class="productDesc">BEST IN INDIA.JUST WEAR AND TEAR WITH NO FEAR</p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">42</div>
+                <div class="size">43</div>
+                <div class="size">44</div>
+            </div>
+            <button class="productButton">BUY NOW!</button>
+        </div>
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="YOUR input" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+1 1234567890" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="WHERE IN INDIA" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="./img/visa.png" width="40" alt="" class="cardIcon">
+                <img src="./img/master.png" alt="" width="40" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton">Checkout!</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Be Yourself!</h1>
+            <img src="https://images.pexels.com/photos/9295809/pexels-photo-9295809.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="https://images.pexels.com/photos/1040427/pexels-photo-1040427.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="galleryImg">
+            <h1 class="galleryTitle">This is the First Day of Your New Life</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Just Do it!</h1>
+            <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="galleryImg">
+        </div>
+    </div>
+    <div class="newSeason">
+        <div class="nsItem">
+            <img src="https://images.pexels.com/photos/4753986/pexels-photo-4753986.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">WINTER NEW ARRIVALS</h3>
+            <h1 class="nsTitle">New Season</h1>
+            <h1 class="nsTitle">New Collection</h1>
+            <a href="#nav">
+                <button class="nsButton">CHOOSE YOUR STYLE</button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="nsImg">
+        </div>
+    </div>
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem">CLASSIC CHAPPAL</li>
+                    <li class="fListItem">LEATHER CHAPPAL</li>
+                    <li class="fListItem">BOYZ SANDALS</li>
+                    <li class="fListItem">LADIES CHAPPAL</li>
+                    <li class="fListItem">NAGPUR CHAPPAL</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <h3>Name : Md Ramish Ansari</h3></div>
+                    <h3>Phone : 6204641602<br> Id : mdramiz3210@gmail.com</h3>
+                    <h3></h3>
+                </div>
+            </div>
+            <!-- <div class="footerRightMenu">
+                <span class="copyright"></span>
+            </div> -->
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
